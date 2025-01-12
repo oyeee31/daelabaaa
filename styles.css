@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00ccff;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6f61;
+    margin: 0;
+}
+
+p {
+    color: #333;
+}
